@@ -50,7 +50,7 @@ Inertial force is defined as the combined sum of two dynamic spatial resistances
 
 Conceptually expressed as:
 
-$$\text{Inertial Force} \propto (\text{Density Wall Resistance}) + (\text{Gradient Repulsive Force } \nabla u)$$
+$$\text{Inertial Force} \propto [ (\text{Density Wall Resistance}) + (\text{Gradient Repulsive Force } \nabla u) ]$$
 
 As an object accelerates, the local energy density ahead increases, causing both resistance terms to grow dynamically, which manifests as relativistic mass increase and the light-speed barrier.
 
