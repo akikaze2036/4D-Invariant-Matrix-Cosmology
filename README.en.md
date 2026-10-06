@@ -52,7 +52,7 @@ The restoring force $K$ and self-resistance $\beta$ in this theory are not exter
 
 1. **Density-Dependent Restoring Force $K(u)$**:  
 As energy density $u$ increases, the flattening (restoring force) of the matrix space automatically strengthens.
-2. **Gradient-Dependent Self-Resistance ($\beta(\nabla u)$)**:  
+2. **Gradient-Dependent Self-Resistance ( $\beta(\nabla u)$ )**:  
 For gentle slopes like Mount Fuji (small $\nabla u$), self-resistance becomes negligibly small, manifesting as mild gravitational fields or refractive index variations.  
 Conversely, steep cliff-like gradients (large $\nabla u$) excite powerful viscous resistance. This causes energy to bind itself into knots (solitons = elementary particles) or, beyond a critical threshold, trigger the creation of a new universe (Big Bang / Bounce).
 
@@ -88,7 +88,8 @@ Inertia in this framework is not fictitious spacetime curvature, but **spatial r
 * **Mass**: Local concentration of energy density in the matrix space (solitons / standing waves).
 * **Gravity**: Gentle gradient of energy density ($\nabla u$) radiated and diffused spherically by mass.
 * **Derivation of Universal Gravitation**:  
-Following spherical wave diffusion in 3D space, energy density at distance $r$ obeys $u(r) \propto \frac{1}{r}$. Multi-wave interference between two standing waves ($u_1, u_2$) generates an interactive force:
+Following spherical wave diffusion in 3D space, energy density at distance $r$ obeys $u(r) \propto \frac{1}{r}$. <br>
+Multi-wave interference between two standing waves ($u_1, u_2$) generates an interactive force:
 $$\boldsymbol{F}_{\text{gravity}} \propto - \nabla (u_1 \cdot u_2) \propto \frac{M_1 M_2}{r^2}$$
 
 Newton's inverse-square law is thus naturally derived as a multi-wave interference effect of spherically diffusing ripples.
