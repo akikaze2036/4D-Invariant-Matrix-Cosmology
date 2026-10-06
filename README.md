@@ -2,6 +2,7 @@
 ### 4D Invariant Matrix Cosmology ###
 
 > **Note**  
+> 🌐 **Language / 言語:** **[English (README.en.md)](./README.en.md)** | **日本語**
 > **ライセンス:** CC-BY 4.0  
 > **著者アイデア:** 秋風  
 > **構成・数式構築:** Google Gemini  
