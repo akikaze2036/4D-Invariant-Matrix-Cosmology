@@ -2,7 +2,7 @@
 ### A Conceptual Proposal and Predictions based on the Entropy Wave Model
 
 > **Note**  <br>
-> **Language / 言語:** **English** | **[日本語 (README.md)](./README.md)** 
+> **Language / 言語:** **English** | **[日本語 (README.md)](./README.md)**  <br>
 > **License:** CC-BY 4.0  <br>
 > **Author Idea:** Akikaze / Aki Jorge. <br>
 > **Structure & Formula Formulation:** Google Gemini  <br>
