@@ -1,11 +1,11 @@
 # 4次元不変母体宇宙論
 ### 4D Invariant Matrix Cosmology ###
 
-> **Note**  
-> **Language / 言語:** **[English (README.en.md)](./README.en.md)** | **日本語**
-> **ライセンス:** CC-BY 4.0  
-> **著者アイデア:** 秋風  
-> **構成・数式構築:** Google Gemini  
+> **Note**  <br>
+> **Language / 言語:** **[English (README.en.md)](./README.en.md)** | **日本語**. <br>
+> **ライセンス:** CC-BY 4.0  <br>
+> **著者アイデア:** 秋風 / 秋 譲治  <br>
+> **構成・数式構築:** Google Gemini  <br,√>
 > ※ 本ドキュメントはアイデアの未検証のたたき台であり、統合理論に向けた概念モデルです。<br>
 > ※ 秋風の宇宙理論アイデアを「Google Gemini」と何度も対話して理論を固め、「Google Gemini」が方程式と論文を作成しました。<br>
 
