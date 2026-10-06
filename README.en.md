@@ -25,15 +25,18 @@ Inertial force is formally defined as a dual spatial resistance composed of the 
 
 ## 2. Foundation Equations
 
-The propagation and equilibration of energy density $u$ in the matrix space are governed by the following **Extended Telegrapher's Equation** featuring dynamic, non-linear parameters:
+### 2.1 Fundamental Wave Equation
+The propagation and dynamics of energy density $u$ in the matrix space are governed by the following fundamental wave equation with dynamic, non-linear parameters:
 
-$$\frac{\partial^2 u}{\partial t^2} + \beta(u, \nabla u) \frac{\partial u}{\partial t} = c^2 \nabla^2 u - K(u) u$$
+$$\frac{\partial^2 u}{\partial \tau^2} + \gamma \frac{\partial u}{\partial \tau} = K(u) \nabla^2 u - \beta(\nabla u) \cdot u^2$$
 
 Where:
-* **$u(\mathbf{x}, t)$**: Scalar energy density at spatial coordinate $\mathbf{x}$ and absolute coordinate time $t$.
-* **$c$**: Base propagation speed of energy waves in the unperturbed matrix space.
-* **$K(u)$**: Dynamic restoring force function depending non-linearly on the energy density level.
-* **$\beta(u, \nabla u)$**: Dynamic self-resistance (viscosity) function depending on the steepness of the local energy gradient and field density.
+* **$u(\boldsymbol{x}, \tau)$**: Scalar energy density in the 4D invariant matrix space.
+* **$\tau$**: Absolute proper time in the matrix space (propagation parameter).
+* **$\gamma$**: Base dissipation and damping coefficient of space (degree of wave attenuation).
+* **$K(u)$**: Dynamic restoring coefficient (diffusion and restoring force of ripples).
+* **$\beta(\nabla u)$**: Dynamic high-density self-interaction coupling constant (non-linear self-resistance and viscosity).
+* **$\nabla^2$**: 4D Laplacian operator ($\frac{\partial^2}{\partial (x^1)^2} + \frac{\partial^2}{\partial (x^2)^2} + \frac{\partial^2}{\partial (x^3)^2} + \frac{\partial^2}{\partial (x^4)^2}$).
 
 ---
 
