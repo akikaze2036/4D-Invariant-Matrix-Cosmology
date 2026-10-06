@@ -138,7 +138,8 @@ Infinitely dense mathematical singularities do not form at black hole centers or
 As collapsing energy reaches extreme density $u_{\text{max}}$ and steep gradient $\nabla u$, self-resistance $\beta(\nabla u)$ jumps toward infinity, halting further collapse.
 2. **Branching Fates (Seeds of New Universes)**:  
 Depending on subtle differences in the gradient shape ($\nabla u$), the energy either **bounces into another region of matrix space (creating a child universe / Big Bang)** or transitions into **gradual evaporation and recycling via ultra-low-frequency ripples.**
-<br>
+
+```
             [ 4D Invariant Matrix Space ]<br>
                             │<br>
            ┌────────────────┴────────────────┐<br>
@@ -152,6 +153,8 @@ Depending on subtle differences in the gradient shape ($\nabla u$), the energy e
    ┌────────────────────────┼────────────────────────┐<br>
    ▼                        ▼                        ▼<br>
    → Stable Gravity / Star System → Big Bang / Child Universe  → Simple Dissipation / Recycling<br>
+
+```
 
    ---
 
