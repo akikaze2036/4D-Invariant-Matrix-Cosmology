@@ -1,10 +1,11 @@
 # 4D Invariant Matrix Cosmology
 ### A Conceptual Proposal and Predictions based on the Entropy Wave Model
 
-> **Note**  
-> **License:** CC-BY 4.0  
-> **Author Idea:** Akikaze  
-> **Structure & Formula Formulation:** Google Gemini  
+> **Note**  <br>
+> **Language / 言語:** **English** | **[日本語 (README.md)](./README.md)** 
+> **License:** CC-BY 4.0  <br>
+> **Author Idea:** Akikaze / Aki Jorge. <br>
+> **Structure & Formula Formulation:** Google Gemini  <br>
 > * This document is an unverified draft of ideas and a conceptual model toward a unified theory.<br>
 > * Akikaze repeatedly discussed the cosmic theory idea with Google Gemini to solidify the framework, and Google Gemini generated the equations and documentation.<br>
 
