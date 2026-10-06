@@ -140,19 +140,19 @@ As collapsing energy reaches extreme density $u_{\text{max}}$ and steep gradient
 Depending on subtle differences in the gradient shape ($\nabla u$), the energy either **bounces into another region of matrix space (creating a child universe / Big Bang)** or transitions into **gradual evaporation and recycling via ultra-low-frequency ripples.**
 
 ```
-            [ 4D Invariant Matrix Space ]<br>
-                            │<br>
-           ┌────────────────┴────────────────┐<br>
-           ▼                                 ▼<br>
-  [ Density u (Height) ]            [ Gradient ∇u (Shape) ]<br>
-           │                                 │<br>
-           └────────────────┬────────────────┘<br>
-                            │<br>
-      Autonomous Parameter Excitation Based on Local State<br>
-                            │<br>
-   ┌────────────────────────┼────────────────────────┐<br>
-   ▼                        ▼                        ▼<br>
-   → Stable Gravity / Star System → Big Bang / Child Universe  → Simple Dissipation / Recycling<br>
+            [ 4D Invariant Matrix Space ]
+                            │
+           ┌────────────────┴────────────────┐
+           ▼                                 ▼
+  [ Density u (Height) ]            [ Gradient ∇u (Shape) ]
+           │                                 │
+           └────────────────┬────────────────┘
+                            │
+      Autonomous Parameter Excitation Based on Local State
+                            │
+                 ┌──────────┴────────────────┬───────────────────────────────────┐
+                 ▼                           ▼                                   ▼
+  → Stable Gravity / Star System → Big Bang / Child Universe  → Simple Dissipation / Recycling
 
 ```
 
