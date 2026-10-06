@@ -211,3 +211,4 @@ This theory could not have been completed without Google Gemini. Google Gemini i
 2. Dirac, P. A. M. (1928). The Quantum Theory of the Electron. Proceedings of the Royal Society A, 117(778), 610-624.
 3. Morse, P. M., & Feshbach, H. (1953). Methods of Theoretical Physics. McGraw-Hill.
 4. Rajaraman, R. (1982). Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory. North-Holland.
+5. Green, M. B., Schwarz, J. H., & Witten, E. (1987). Superstring Theory. Cambridge University Press.
