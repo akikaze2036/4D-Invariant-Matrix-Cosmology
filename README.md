@@ -1,11 +1,11 @@
 # 4次元不変母体宇宙論
-### 4D Invariant Matrix Cosmology ###
+### 4D Invariant Matrix Cosmology
 
 > **Note**  <br>
 > **Language / 言語:** **[English (README.en.md)](./README.en.md)** | **日本語**. <br>
 > **ライセンス:** CC-BY 4.0  <br>
-> **著者アイデア:** 秋風 / 秋 譲治  <br>
-> **構成・数式構築:** Google Gemini  <br,√>
+> **著者アイデア:** 秋風 (Aki Kaze) / 秋 譲治 (Aki Jorge) <br>
+> **構成・数式構築:** Google Gemini  <br>
 > ※ 本ドキュメントはアイデアの未検証のたたき台であり、統合理論に向けた概念モデルです。<br>
 > ※ 秋風の宇宙理論アイデアを「Google Gemini」と何度も対話して理論を固め、「Google Gemini」が方程式と論文を作成しました。<br>
 
@@ -37,15 +37,23 @@
 
 ### 2.1 基礎波動方程式
 
-$$\frac{\partial^2 u}{\partial \tau^2} + \gamma \frac{\partial u}{\partial \tau} = K(u) \nabla^2 u - \beta(\nabla u) \cdot u^2$$
+$$\frac{1}{c^2} \frac{\partial^2 u}{\partial \tau^2} + \frac{1}{\alpha_0} \frac{\partial u}{\partial \tau} = K(u) \nabla^2 u - \beta(\nabla u) \cdot u^2$$
 
-* $u(\boldsymbol{x}, \tau)$：4次元不変母体空間におけるスカラーエネルギー密度
+#### 【基本概念の整理】
+* **左辺（母体の絶対ルール）**：光速 $c$ や基本緩和時間 $\alpha_0$ は全宇宙・全存在で共通の不変の土俵。万物は同一の母体空間（キャンバス）上で発生・伝播する。
+* **右辺（万物のローカルルール）**：発生したエネルギーの高さ $u$ と傾き $\nabla u$ の組み合わせ（局所の幾何学形状）によって、対象固有の動的ルールが自律決定される。
+* **総括**：母体空間の特定位置における「エネルギー状態（数値）」そのものが万物の正体であり、その数値の組み合わせによって、その場所における固有の物理的挙動（動的パラメータ）がその場で自動決定される。
+
+---
+
+#### 【各項およびパラメータの定義】
+* $u(\boldsymbol{x}, \tau)$：4次元不変母体空間におけるスカラーエネルギー密度（濃淡）
 * $\tau$：母体空間における絶対固有時間（伝播パラメーター）
-* $\gamma$：空間の基本散逸・減衰係数（波動の減衰度）
-* $K(u)$：動的復元係数（波紋の拡散・復元力）
-* $\beta(\nabla u)$：動的高密度自己相互作用結合定数（非線形自己抵抗・粘性）
-* $\nabla^2$：4次元ラプラシアン演算子（ $\frac{\partial^2}{\partial x^1_2} + \frac{\partial^2}{\partial x^2_2} + \frac{\partial^2}{\partial x^3_2} + \frac{\partial^2}{\partial x^4_2}$ ）
-
+* $\frac{1}{c^2} \frac{\partial^2 u}{\partial \tau^2}$：波動伝播のエネルギーとなる慣性項（伝播速度の絶対上限は光速 $c$）
+* $\frac{1}{\alpha_0} \frac{\partial u}{\partial \tau}$：エントロピー均一化の散逸項（母体空間固有の基本緩和時間 $\alpha_0$）
+* $K(u)$：動的復元係数（エネルギー密度 $u$ に依存する拡散・復元力）
+* $\beta(\nabla u)$：動的高密度自己相互作用結合定数（エネルギー勾配 $\nabla u$ に依存する非線形自己抵抗・粘性）
+* $\nabla^2$：4次元ラプラシアン演算子（ $\frac{\partial^2}{\partial (x^1)^2} + \frac{\partial^2}{\partial (x^2)^2} + \frac{\partial^2}{\partial (x^3)^2} + \frac{\partial^2}{\partial (x^4)^2}$ ）
 ---
 
 ### 2.2 動的パラメーター結合仮説（Dynamic Parameter Coupling Hypothesis）
@@ -60,9 +68,32 @@ $$\frac{\partial^2 u}{\partial \tau^2} + \gamma \frac{\partial u}{\partial \tau}
 
 ```
 
+### 2.3 動的パラメーター結合仮説と具体的候補式
+
+本理論における復元力 $K(u)$ および自己抵抗 $\beta(\nabla u)$ は、場のエネルギー状態（密度 $u$ と勾配 $\nabla u$）から自律的に定まる動的関数である。
+
+数値解析および理論検証における最も基礎的な応答モデルとして、以下の具体的候補方程式を提示する。
+
+1. **密度依存型復元力 $K(u)$（2次対称応答モデル）**
+   
+   $$K(u) = K_0 \left( 1 + a u^2 \right)$$
+
+   * $K_0$ : 真空における基本復元係数
+   * $a$ : 密度感度定数
+
+3. **勾配依存型自己抵抗 $\beta(\nabla u)$（臨界飽和型相転移モデル）**
+
+   $$\beta(\nabla u) = \beta_0 \tanh\left( \frac{\vert\nabla u\vert^2}{\nabla u_{\text{crit}}^2} \right)$$
+
+   * $\beta_0$ : 限界自己粘性定数
+   * $\nabla u_{\text{crit}}$ : 素粒子創生を引き起こす相転移の臨界勾配閾値
+
+* **物理的意味**：
+  勾配 $\vert\nabla u\vert$ が臨界値 $\nabla u_{\text{crit}}$ を超えると $\tanh$ 関数の特性により非線形粘性が爆発的に立ち上がり、エネルギーの拡散を遮断して位相的ソリトン（素粒子）を形成する。一方で極限状態においても抵抗値は $\beta_0$ へと滑らかに飽和するため、従来の標準理論のような無限大の特異点（物理的破綻）は発生しない。
+
 1. **密度依存型復元力 $K(u)$**：
 エネルギー密度 $u$ が高くなるほど、母体空間の平坦化（復元力）が自動的に強まる。
-2. **勾配依存型自己抵抗 ( $\beta(\nabla u)$ )**：
+2. **勾配依存型自己抵抗 $\beta(\nabla u)$**：
 富士山のように「なだらかな勾配（ $\nabla u$ が小）」であれば自己抵抗は無視できるほど小さくなり、穏やかな重力場や屈折率として現れる。
 一方で「崖のように切り立った急勾配（ $\nabla u$ が大）」では強大な粘性抵抗が励起され、エネルギーが自らを縛り付けて結び目（ソリトン＝素粒子）を形成するか、臨界点を超えて新宇宙の創生（ビッグバン/バウンド）を起こす。
 
