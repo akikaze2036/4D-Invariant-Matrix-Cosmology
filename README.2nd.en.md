@@ -90,9 +90,12 @@ This local rule is shaped by two key players:
 
 ## 6. Conclusion
 
-Einstein dreamed of a universe that everyone could understand simply. The key to unlocking that door was not warping spacetime, but realizing that **"time does not flow; it is merely an illusion revealed by the expansion of waves."**
+The "simple universe understandable to all"—this was the dream Dr. Einstein envisioned.<br>
+The key to opening that door lay not in curving spacetime, but in shifting our mindset: "Could it be that time is not flowing after all?"<br>
 
-May this story, born from a small flash of inspiration, serve as a new step forward in approaching the ultimate truth of the universe.
+In this work, we transformed our perspective and made "waves" the key to unlock the door.<br>
+
+**What key might Dr. Einstein have forged to open it? The imagination runs boundlessly.**
 
 ---
 *(C) 2026 Aki Kaze / Aki Jorge & Google Gemini. Licensed under CC-BY 4.0.*
