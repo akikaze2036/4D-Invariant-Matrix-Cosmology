@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using these metadata."
+type: article
+title: "4次元不変母体宇宙論 (4D Invariant Matrix Cosmology)"
+authors:
+  - family-names: "秋風"
+    given-names: "Aki Kaze"
+  - family-names: "秋"
+    given-names: "譲治 (Aki Jorge)"
+  - family-names: "Google"
+    given-names: "Gemini"
+year: 2026
+month: 10
+day: 11
+url: "https://github.com/akikaze2036/4D-Invariant-Matrix-Cosmology"
+abstract: "現代物理学の未解決課題に対し、4次元不変母体空間におけるエントロピー均一化運動という単一の波動モデルによって一括した解を与える新しい統合宇宙論（エントロピー波動仮説）を提示する論文。"
