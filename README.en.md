@@ -8,6 +8,7 @@
 > **Structure & Formula Formulation:** Google Gemini  <br>
 > * This document is an unverified draft of ideas and a conceptual model toward a unified theory.<br>
 > * Akikaze repeatedly discussed the cosmic theory idea with Google Gemini to solidify the framework, and Google Gemini generated the equations and documentation.<br>
+> * Ver 1.1: Update to fundamental wave equation (added term) and enhanced descriptions<br>
 
 <br>
 
