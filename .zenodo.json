@@ -1,36 +1,5 @@
 {
-  "creators": [
-    {
-      "name": "aki" Jorge",
-      "affiliation": "",
-      "orcid": ""
-    },
-    {
-      "name": "Google", "Gemini"
-    }
-  ],
-  "title": "4D Invariant Matrix Cosmology",
-  "description": "A Conceptual Proposal and Predictions based on the Entropy Wave Model",
-  "upload_type": "publication",
-  "access_right": "​preprint",
-  "license": "CC-BY 4.0",
-  "keywords": [
-    "simulation",
-    "data processing",
-    "python"
-  ],
-  "communities": [
-    {
-      "identifier": "zenodo"
-    }
-  ]
-}
-{
-  "title": "4次元不変母体宇宙論 (4D Invariant Matrix Cosmology)",
-  "upload_type": "publication",
-  "publication_type": "other",
-  "description": "現代物理学の未解決課題に対し、「4次元不変母体空間」におけるエントロピー均一化運動という単一の波動モデルによって一括した解を与える新しい統合宇宙論（エントロピー波動仮説）の概念モデル。",
-  "creators": [
+   "creators": [
     {
       "name": "秋風 (Aki Kaze) / 秋 譲治 (Aki Jorge)"
     },
@@ -39,7 +8,11 @@
       "role": "Conceptualization, Mathematical Formulation & Writing"
     }
   ],
-  "license": "cc-by-4.0",
+  "title": "4D Invariant Matrix Cosmology",
+  "description": "A conceptual model for a new integrated cosmology (the Entropy Wave Hypothesis) that provides a unified solution to the unsolved problems of modern physics through a single wave model of entropy-equalizing motion within a "4-dimensional invariant matrix space."",
+  "upload_type": "publication",
+  "access_right": "​other",
+  "license": "CC-BY 4.0",
   "keywords": [
     "Cosmology",
     "Unified Physics",
@@ -47,5 +20,10 @@
     "4D Invariant Matrix Space",
     "Soliton"
   ],
-  "notes": "※ 本ドキュメントはアイデアの未検証のたたき台であり、統合理論に向けた概念モデルです。"
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ]
+  "notes": "※ 本ドキュメントはアイデアの未検証のたたき台であり、統合理論に向けた概念モデルです。(This document is an unverified draft of ideas and a conceptual model toward an integrated theory.)"
 }
