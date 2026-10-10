@@ -1,0 +1,27 @@
+{
+  "creators": [
+    {
+      "name": "aki" Jorge",
+      "affiliation": "",
+      "orcid": ""
+    },
+    {
+      "name": "Google", "Gemini"
+    }
+  ],
+  "title": "4D Invariant Matrix Cosmology",
+  "description": "A Conceptual Proposal and Predictions based on the Entropy Wave Model",
+  "upload_type": "publication",
+  "access_right": "​preprint",
+  "license": "CC-BY 4.0",
+  "keywords": [
+    "simulation",
+    "data processing",
+    "python"
+  ],
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ]
+}
