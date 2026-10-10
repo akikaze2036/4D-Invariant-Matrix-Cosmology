@@ -48,10 +48,11 @@ $$\frac{1}{c^2} \frac{\partial^2 u}{\partial \tau^2} + \frac{1}{\alpha_0} \frac{
 
 * $u(\boldsymbol{x}, \tau)$: Scalar energy density (concentration/shading) in the 4D invariant matrix space.
 * $\tau$: Absolute proper time in the matrix space (propagation parameter).
-* $\frac{1}{c^2} \frac{\partial^2 u}{\partial \tau^2}$: Inertial term driving wave propagation (with upper speed limit strictly bounded by $c$).
-* $\frac{1}{\alpha_0} \frac{\partial u}{\partial \tau}$: Dissipation term for entropy equalization ($\alpha_0$ represents the intrinsic base relaxation time of matrix space).
-* $K(u)$: Dynamic restoring coefficient (diffusion and restoring force depending on energy density $u$).
-* $\beta(\nabla u)$: Dynamic self-interaction coupling constant (non-linear self-resistance / viscosity depending on energy gradient $\nabla u$).
+* $\alpha_0$: represents the intrinsic base relaxation time of matrix space.
+* $\frac{1}{c^2} \frac{\partial^2 u}{\partial \tau^2}$: Inertial term driving wave propagation (with upper speed limit strictly bounded by $c$ ).
+* $\frac{1}{\alpha_0} \frac{\partial u}{\partial \tau}$: Dissipation term for entropy equalization.
+* $K(u)$: Dynamic restoring coefficient ($u$: diffusion and restoring force depending on energy density).
+* $\beta(\nabla u)$: Dynamic self-interaction coupling constant <br>($\nabla u$: non-linear self-resistance / viscosity depending on energy gradient).
 * $\nabla^2$: 4D Laplacian operator ($\frac{\partial^2}{\partial (x^1)^2} + \frac{\partial^2}{\partial (x^2)^2} + \frac{\partial^2}{\partial (x^3)^2} + \frac{\partial^2}{\partial (x^4)^2}$).
 
 ---
@@ -68,7 +69,7 @@ The restoring force $K(u)$ and self-resistance $\beta(\nabla u)$ in this theory 
 
 ```
 
-1. **Density-Dependent Restoring Force $K(u)$ (Symmetric Response Model):**
+#### 2.2.1. Density-Dependent Restoring Force $K(u)$ (Symmetric Response Model):
 
 $$K(u) = K_0 \left( 1 + a u^2 \right)$$
 
@@ -78,7 +79,7 @@ $$K(u) = K_0 \left( 1 + a u^2 \right)$$
 As energy density $u$ increases, the flattening (restoring force) of the matrix space automatically strengthens.
 
 
-2. **Gradient-Dependent Self-Resistance $\beta(\nabla u)$ (Critical Saturation Model):**
+#### 2.2.2. Gradient-Dependent Self-Resistance $\beta(\nabla u)$ (Critical Saturation Model):
 
 $$\beta(\nabla u) = \beta_0 \tanh\left( \frac{\vert\nabla u\vert^2}{\nabla u_{\text{crit}}^2} \right)$$
 
@@ -86,11 +87,11 @@ $$\beta(\nabla u) = \beta_0 \tanh\left( \frac{\vert\nabla u\vert^2}{\nabla u_{\t
 * $\beta_0$: Upper bound of self-viscosity.
 * $\nabla u_{\text{crit}}$: Critical gradient threshold triggering particle formation.
 
-3. ##### Physical Interpretation:
+### 2.2.3. Physical Interpretation:
 
-For gentle slopes like Mount Fuji (small $\vert\nabla u\vert \ll \nabla u_{\text{crit}}$), self-resistance is negligible, manifesting as mild gravitational fields or refractive index variations (FM modulation wavelength elongation).
+For gentle slopes like Mount Fuji ($\vert\nabla u\vert \ll \nabla u_{\text{crit}}$), self-resistance is negligible, manifesting as mild gravitational fields or refractive index variations (FM modulation wavelength elongation).
 
-Conversely, steep cliff-like gradients (large $\vert\nabla u\vert \ge \nabla u_{\text{crit}}$) excite powerful viscous resistance through the hyperbolic tangent function. This causes ripples to trap themselves into topological knots (solitons = elementary particles). Even under extreme conditions, the viscosity smoothly saturates to $\beta_0$, mathematically preventing infinite singularities.
+Conversely, steep cliff-like gradients ($\vert\nabla u\vert \ge \nabla u_{\text{crit}}$) excite powerful viscous resistance through the hyperbolic tangent function. This causes ripples to trap themselves into topological knots (solitons = elementary particles). Even under extreme conditions, the viscosity smoothly saturates to $\beta_0$, mathematically preventing infinite singularities.
 
 ---
 
