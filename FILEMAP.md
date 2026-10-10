@@ -8,10 +8,8 @@ Overview of the directory structure and the role of each file in this repository
 ├── LICENSE                          # ライセンスファイル / License
 ├── README.md                        # 論文本体（日本語版） / Paper (Japanese)
 ├── README.en.md                     # 論文本体（英語版） / Paper (English)
+├── README.2md.md                    # 論文本体　第二弾（日本語版） / Paper 2nd. (Japanese)
+├── README.2nd.en.md                 # 論文本体　第二弾（英語版） / Paper 2nd. (English)
 ├── FILEMAP.md                       # リポジトリ構造案内（本ファイル） / Repository File Map (This file)
-└── supplements/                     # 補足文書（外伝）シリーズ / Supplements
-    ├── README.md                    # 補足文書の目次（日本語） / Supplements Index
-    ├── 理論の精神.md                 # 1. 理論の精神（マニフェスト） / 1. Spirit of the Theory (Manifesto)
-    ├── 宇宙創生(原子誕生まで).md      # 2. 宇宙創生 / 2. Creation of the Universe (Until Atomic Genesis)
-    ├── 力.md                        # 3. 力（4つの力の統一） / 3. Forces (Unification of Fundamental Interactions)
-    └── 熱.md                        # 4. 熱（絶対温度と勾配） / 4. Heat (Absolute Temperature & Energy Gradients)
+└── supplements/                     # (予定/Plan) 補足文書（外伝）シリーズ / Supplements
+    └── README.md                    # (予定/Plan) 補足文書の目次（日本語） / Supplements Index
